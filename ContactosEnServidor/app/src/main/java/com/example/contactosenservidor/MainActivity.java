@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
 
                 try{
-                    URL url = new URL("http://10.0.2.2/pmulContactos/contactosParaJson.php");
+                    URL url = new URL("http://10.0.2.2/phpContactos/contactosParaJson.php");
                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                     //Lo convierto en un Buffer de entrada y lo leo como un fichero normal:
                     miBuffer = con.getInputStream();
