@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondaryActivity"
+    android:orientation="vertical"
+    android:id="@+id/layoutSecundario">
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/foto"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOMBRE: "
+        android:layout_margin="20px"
+        android:id="@+id/nombre"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TELEFONO: "
+        android:id="@+id/telefono"
+        android:layout_gravity="bottom"
+        android:layout_margin="20px"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GMAIL: "
+        android:layout_margin="20px"
+        android:id="@+id/gmail"></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a Main"
+        android:onClick="onClick">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="modificaciones"
+        android:text="modificar" />
+
+    <Button
+        android:id="@+id/guardaCambios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="guardarCambios"
+        android:text="Guardar" />
+</LinearLayout>
